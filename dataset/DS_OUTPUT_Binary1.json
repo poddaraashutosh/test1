@@ -1,0 +1,19 @@
+{
+	"name": "DS_OUTPUT_Binary1",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LS_OUTPUT_Binary1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Binary",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": "data_baa0b0bf-0aa7-4c5a-af30-0c631bfb3b8c_bc8d6959-a4e8-4064-b20c-ca512f45503d.parquet",
+				"fileSystem": "restapi"
+			}
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

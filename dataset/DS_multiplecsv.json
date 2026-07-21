@@ -1,0 +1,20 @@
+{
+	"name": "DS_multiplecsv",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LS_multiplecsv",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Parquet",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileSystem": "multiplecsv"
+			},
+			"compressionCodec": "snappy"
+		},
+		"schema": []
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

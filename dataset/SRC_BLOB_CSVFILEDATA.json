@@ -1,0 +1,24 @@
+{
+	"name": "SRC_BLOB_CSVFILEDATA",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LS_BLOB_MULTIPLECSV",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "industry_sic.csv",
+				"container": "csvfiledata"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": []
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

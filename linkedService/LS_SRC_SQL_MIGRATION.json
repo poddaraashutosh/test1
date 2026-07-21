@@ -1,0 +1,21 @@
+{
+	"name": "LS_SRC_SQL_MIGRATION",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "SqlServer",
+		"typeProperties": {
+			"server": "DESKTOP-T4S6FIV",
+			"database": "Visionboardmigration",
+			"encrypt": "optional",
+			"trustServerCertificate": false,
+			"authenticationType": "SQL",
+			"userName": "aashutosh",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiI1ZTUwM2M1ZC00YjcxLTQxOTAtYjU2MS02NTg1ZjM2MThkNmIiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+		},
+		"connectVia": {
+			"referenceName": "integrationRuntime1",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}
